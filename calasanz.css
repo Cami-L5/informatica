@@ -1,6 +1,16 @@
-hi´{
-    color:rgb(114, 5, 5);
+/* Selector de etiqueta */
+h1{
+    color:rgb(133, 4, 4);
 }
 h2{
-    color:rgb(12, 12, 119);
+    color:rgb(6, 6, 165);
+}
+/* Selector de etiqueta*/
+.oscuro{
+    background-color: black;
+    color: rgb(219, 202, 202);
+}
+/* Selector ID*/
+#biografia{
+    background-color:rgb(240, 205, 205);
 }

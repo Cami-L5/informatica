@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ff0080, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    } 
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        }
+    
+            label {
+                display: block;
+                font-weight: bold;
+                margin: 10px 0 5px;
+                color: #444;
+                } 
+                input[type="text"], select {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    outline: none;
+                    transition: 0.3s;
+                    } 
+                    input[type="text"]:focus, select:focus {
+                        border-color: #6cfe4f;
+                        box-shadow: 0px 0px 6px rgba(254, 79, 146, 0.6);
+                        } 
+                        .radio-group {
+                            margin: 8px 0 15px;
+                            } 
+                            .radio-group input {
+                                margin-right: 5px;
+                                } 
+                                button:hover {
+                                    transform: scale(1.05);
+                                    background: linear-gradient(135deg, #38f9d7, #43e97b);
+                                    }                                                                                                               

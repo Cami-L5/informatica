@@ -1,12 +1,10 @@
-<script>
- function saludar() {
- let nombre = document.getElementById("nombre").value;
+function saludar() {
+ let nombre = document.getElementById("nombre").value; 
+ 
  if (!nombre) {
-    alert('Escribe tu nombre.');
+   } alert('Escribe tu nombre.');
     return;
-    } 
 }
- </script> 
 let radio = document.querySelector('input[name="genero"]:checked');
 if (!radio) {
 alert('Selecciona un género.');
@@ -16,11 +14,15 @@ if (radio.value === 'hombre') {
     } else {
     saludo = 'Bienvenida';
     }
-    alert(`${saludo}, ${nombre}`);
 
+    alert(`${saludo}, ${nombre}`);
     let pais = document.getElementById("pais").value;
  let frasePais = "";
  if (pais === "arg") frasePais = "Gracias por visitarnos";
  if (pais === "bra") frasePais = "Obrigado por nos visitar";
  if (pais === "usa") frasePais = "Thanks for visiting us";
  alert(`${saludo} ${nombre}! ${frasePais}.`);
+ `<div>
+ <h1>${saludo} ${nombre}!</h1>
+ <p>${frasePais}.</p>
+ </div>`;

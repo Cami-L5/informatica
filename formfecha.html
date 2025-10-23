@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="s">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="formulario">
+    <h1> Registro de usuario </h1>
+<label for "nombre"> Nombre de usuario </label>   
+<input type="text" id="nombre" required> <br>
+
+<label for "fecha"> fecha de nacimiento</label>
+<input type="date" id="fecha" required> <br>
+<button id="boton" onclick="registro()">s</button>
+</form>
+    <script>
+        function registro(){
+            let usuario = document.getElementById("nombre").value;
+          let hoy = newdate(); 
+          let edad = hoy.getFullYear() - nac;
+          let nac = newdate(document.getElementById("fecha").value);
+            alert("bienvenid@/e/x/i  " + usuario) 
+        }
+    </script>
+</body>
+</html>

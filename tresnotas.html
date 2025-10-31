@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcular Promedio del Estudiante</title>
+</head>
+<body>
+    <h1>Calculadora de Promedio</h1>
+
+    <form id="formNotas">
+        <label for="nota1">Ingrese la primera nota:</label><br>
+        <input type="number" id="nota1" name="nota1" min="0" max="10" step="0.1" required><br><br>
+
+        <label for="nota2">Ingrese la segunda nota:</label><br>
+        <input type="number" id="nota2" name="nota2" min="0" max="10" step="0.1" required><br><br>
+
+        <label for="nota3">Ingrese la tercera nota:</label><br>
+        <input type="number" id="nota3" name="nota3" min="0" max="10" step="0.1" required><br><br>
+
+        <button type="submit">Calcular Promedio</button>
+    </form>
+
+    <h2>Resultado:</h2>
+    <p id="resultado"></p>
+
+    <script src="./tresnotas.js"></script>
+
+</body>
+</html>
+
